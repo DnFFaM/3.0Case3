@@ -28,7 +28,7 @@ namespace _3._0Case3
                     Console.Error.WriteLine("Pass under 12 characters!!! ");
                 }
                 else if (Pass.Length > 12)
-                {       
+                {
                     string Nam = Name;
                     System.IO.File.WriteAllText(@"C:\Users\adeaje\Documents\IT\1.HF\Projects I Made\C#\C# Console App(NET F)\3.0Case3\3.0Case3\Names.txt", Nam);
                     string Pas = Pass;
